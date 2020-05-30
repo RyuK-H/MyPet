@@ -1,11 +1,12 @@
 import React from "react";
 
 import ResetStyle from "@styles/reset";
+import HomePage from "./HomePage";
 
 const App = () => {
   return (
     <>
-      Blockchain Entertainment Lab.
+      <HomePage />
       <ResetStyle />
     </>
   );
