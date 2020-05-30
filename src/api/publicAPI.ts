@@ -12,7 +12,7 @@ class PublicAPI {
     return Axios.post(
       "https://cors-anywhere.herokuapp.com/https://www.animal.go.kr/front/awtis/record/recordConfirmDtl.do",
       null,
-      { params: data }
+      { params: data },
     ).then((reponse: AxiosResponse<GNAnimalData>) => {
       const myData: AnimalData = {
         name: reponse.data.data.dogNm,

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Header, Segment, Input } from "semantic-ui-react";
-import { observable, action } from "mobx";
+import { observable } from "mobx";
 import { observer } from "mobx-react";
 
 import { publicAPI } from "@root/api/publicAPI";
